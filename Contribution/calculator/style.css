@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+body {
+  background-color: darkseagreen;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-image: linear-gradient(to left, lightblue, lightskyblue, rgba(129, 216, 243, 0.74));
+  transition: 0.3s ease-in-out;
+  width: 280px;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px 0;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1222);
+}
+.button {
+  transition: 0.6s ease-in-out;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin: 2px;
+  color: rgb(138, 99, 133);
+}
+#equal {
+  background-color: rgb(35, 214, 95);
+  height: 100px;
+  color: aliceblue;
+}
+form .textview {
+  transition: 1s ease-in-out;
+  box-sizing: border-box;
+  padding: 1em;
+  height: 45px;
+  width: 220px;
+  background-color: rgb(126, 126, 190);
+  border-radius: 10px;
+  border: none;
+  margin: 4px auto;
+  color: aliceblue;
+}
+
+#nol {
+  width: 96%;
+}
+
+#hapus {
+  background-color: rgb(252, 102, 102);
+  color: whitesmoke;
+}
+#back {
+  background-color: orange;
+  color: whitesmoke;
+}
+#bagi,
+#kali,
+#tambah,
+#kurang {
+  background-color: gold;
+}
+.button:hover {
+  background-color: rgba(213, 147, 252, 0.733) !important;
+  transform: scale(0.85);
+}
